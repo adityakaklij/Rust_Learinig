@@ -1,0 +1,76 @@
+
+Common Most used commands
+    
+    rustc filename.rs 
+    ./filename
+
+    cargo new folder_name
+    cargo run
+    cargo build
+    cargo check // To check the code is working correctly without running.
+
+    crating a package 
+    cargo new file_name --lib  
+
+    Remove Warnings
+        #![allow(dead_codem unused_variables)]
+
+    rustfmt filename.rs // It formates the file.
+
+
+
+lesson 1
+    rustc filename.ru
+    ./filename
+
+    With cargo
+        cargo new foldername
+        cargo build
+        cargo check
+        cargo run
+
+        cargo build --release (compilr with optimization.)
+
+Lesson 2
+    Programming a guessing number
+    
+
+// 11.04.23
+Lesson 4
+    Ownership, variables scope String
+
+// 12.04.23
+Lesson 5
+    Struct implementation
+//17.04.23
+Lesson 5.1
+    Methods implementation. imp 
+
+// 13.04.23
+Lesson 6
+    Enums, Match, if let
+
+// 14.04.23
+Lesson 7
+    Managing packages
+    15.04.23
+    Managing the packages, library. 
+        cargo new lesson7 --lib
+
+        cargo install cargo-modules // for installing hte modules
+        cargo modules generate tree // Returns the current structure tree.
+        cargo modules generate tree --with-types
+
+        use deceleration, to short our path 
+
+        lesson 7   // Normal basic srructure
+        lesson 7.1 // Using modules in the singele file 
+        lesson 7.2 // Making multiple file for each modules.
+
+Lesson 8
+    Vector
+    
+//19-04-23
+Lesson 6_1
+    Enum and pattern matching
+    Option enum 
