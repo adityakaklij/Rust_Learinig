@@ -43,6 +43,27 @@ fn main() {
 //  let b: <Option<&str> = Some ("Adi");
     let c : Option<i32>= None;
 
-    println!("a: {:?}", c);
+    // println!("a: {:?}", c);
 
+
+    enum Coins {
+        Penny,
+        Nickel,
+        Dime,
+        Quarter,
+
+    }
+
+
+    fn value_in_cents(coin: Coins) -> u8 {
+        match coin {
+            Coins::Penny => 0,
+            Coins::Nickel => 1,
+            Coins::Dime => 2,
+            Coins::Quarter => 3,
+        }
+    }
+
+    let m11 = value_in_cents(Coins::Nickel);
+    println!("m11: {:?}", m11);
 }
