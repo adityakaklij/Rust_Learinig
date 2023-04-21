@@ -68,9 +68,18 @@ Lesson 7
         lesson 7.2 // Making multiple file for each modules.
 
 Lesson 8
-    Vector
+    Vector, HashMaps
     
 //19-04-23
 Lesson 6_1
     Enum and pattern matching
     Option enum 
+
+//20-04-23
+lesson7_2
+    Creats, Modules structure 
+
+//21-04-23
+lesson9
+    Error Handling 
+     RUST_BACKTRACE=1 cargo run   
