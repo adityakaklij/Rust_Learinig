@@ -87,4 +87,18 @@ lesson9
 //21-04-23
 lesson10
     Generic
+
+//22-04-23
+lesson10_1
+    Traits
+lesson10_2
+    Lifetimes
+    Dangling variables
+
+lesson11 
+    Test test in rust, writing tests.
+
+lesson12 
+    CLI application
+    takes input as string, read files, 
      
